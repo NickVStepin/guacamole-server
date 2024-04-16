@@ -41,6 +41,7 @@ libguacinc_HEADERS =                  \
     guacamole/argv-fntypes.h          \
     guacamole/audio.h                 \
     guacamole/audio-fntypes.h         \
+    guacamole/socket-tcp.h            \
     guacamole/audio-types.h           \
     guacamole/client-constants.h      \
     guacamole/client.h                \
@@ -128,6 +129,7 @@ libguac_la_SOURCES =   \
     socket-broadcast.c \
     socket-fd.c        \
     socket-nest.c      \
+    socket-tcp.c       \
     socket-tee.c       \
     string.c           \
     timestamp.c        \
